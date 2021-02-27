@@ -88,12 +88,17 @@
   ## Google Fontes
 
 * Adicionar fonte, basta adicionar um link no html:
-  `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">` (Aqui importamos três fontes, muitas fontes podem deixar o carregamento do site lento).
+  ```html 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+  ```
+  (Aqui importamos três fontes, muitas fontes podem deixar o carregamento do site lento).
 
 * Depois só adicionar ao elemento. `h1.a {font-family: "Audiowide", sans-serif;}` (sans-serif é fallback, alternativa).
 
 * Usar uma fonte com efeito, basta importar:
-`<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">`.
+  ```html
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  ```
 
 * Colocar a seguinte classe aos elementos que conterão essa fonte
 `<h1 class="font-effect-fire">`.
@@ -101,7 +106,9 @@
 * Continua possível editar a fonte no CSS.
 
 * Também é possível adicionar mais de um efeito.
-`<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">`
+  ```html
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+  ```
 
 * Importar diretamente do CSS
 ```css

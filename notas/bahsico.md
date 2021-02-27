@@ -1,9 +1,9 @@
-# Características da Linguagem
+# Básico da Linguagem
 
 ## Comentários
 `/* comentário */`
 
-## Sintaxes
+## Sintaxe
 <img src="../imagens/sintaxe.gif" width="450px"/><br><br>
 
 ## Possíbilidades

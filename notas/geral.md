@@ -97,6 +97,7 @@ in	| polegadas | 1in = 96px = 2.54cm
 px | pixels | 1px = 1/96th of 1in (varia)
 pt	| pontos | 1pt = 1/72 of 1in
 pc	| paicas | 1pc = 12 pt 
+
 <br><br>
 
 ## Unidades Relativas
@@ -112,6 +113,7 @@ vmax | Relativo a 1% da maior dimensão da janela
 . | .
 _ex_ | _Relative to the x-height of the current font (rarely used)_
 _ch_ | _Relative to width of the "0" (zero)_	
+
 <br><br><br>
 
 # Cores
@@ -133,7 +135,8 @@ Vale para: _padding_, _border_, _margin_.
   Dois | ⮃ ⮃
   Três | 🡡 ⮂ 🡣
   Quatro | 🡡 🡢 🡣 🡠
-  <br><br><br>
+
+<br><br><br>
 
 # Deslocados
 * `resize: none;` - Para evitar que o usuário redimensione a área de texto.
