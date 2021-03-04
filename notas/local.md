@@ -67,7 +67,7 @@
 - **-style**  
   `border-style: dotted dashed solid double;`  
 
-  <img src="../imagens/borda.gif">  
+  <img src="../imagens/borda.gif" width="500px">  
 
 - **-width**  
   - **: thin** (typically 1px)
