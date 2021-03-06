@@ -19,6 +19,18 @@
     * min-width  
   - **'Valores possíveis'**  
     * 'length' ou 'x%' ou 'none'(este é o padrão).
+
+# overflow (EXCEDENTE)
+
+Só funciona em elementos com altura definida.
+
+**Valores possíveis:**
+* `visible` - Padrão, o conteúdo transborda para fora da caixa do elemento.
+* `hidden` - O conteúdo excedente e omitido.
+* `scroll` - O conteúdo excedente e omitido, mas é adicionado um barra de rolagem para que haja acesso ao conteúdo.
+* `auto` - Similar ao **scroll**, mas a barra só é adicionada se necessária.
+
+`overflow-x` e `overflow-y` determinam como o conteúdo irá transbordar.
   
 # Background
 

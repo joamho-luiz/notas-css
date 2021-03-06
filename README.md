@@ -1,5 +1,6 @@
 # [BÁSICO DA LINGUAGEM](notas/bahsico.md)
 * Comentários
+* Arquitetura do Arquivo
 * Sintaxe
 * Possibilidades
 * Modelos
@@ -69,6 +70,8 @@
 
 ## WIDTH E HEIGHT
 
+## OVERFLOW (excedente)  
+
 ## BACKGROUND
 * Conjugada
 * Cor
@@ -109,8 +112,6 @@
 * Esconder Elemento
 
 ## POSITION (posicionamento)  
-
-## OVERFLOW (excedente)  
 
 ## FLOAT (transcender)
 

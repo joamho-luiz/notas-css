@@ -60,18 +60,6 @@ Determinar a posição (por top, bottom, left, right), só funciona depois que d
 
 Alguns posicionamento podem implicar em sobreposição, então pe possível ordenar a posição no eixo Oz através da propriedade `z-index: -1;` atributo a cada elemento valores positivos ou negativos. Sem determinar a posição em z a ordem de sobreposição é dado pelo elemento último elemento no html.
 
-# overflow (EXCEDENTE)
-
-Só funciona em elementos com altura definida.
-
-**Valores possíveis:**
-* `visible` - Padrão, o conteúdo transborda para fora da caixa do elemento.
-* `hidden` - O conteúdo excedente e omitido.
-* `scroll` - O conteúdo excedente e omitido, mas é adicionado um barra de rolagem para que haja acesso ao conteúdo.
-* `auto` - Similar ao **scroll**, mas a barra só é adicionada se necessária.
-
-`overflow-x` e `overflow-y` determinam como o conteúdo irá transbordar.
-
 # float (TRANSCENDER)
 
 Determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, elementos em linhas irão se posicionar ao seu redor.
