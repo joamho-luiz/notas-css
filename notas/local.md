@@ -26,8 +26,8 @@ Só funciona em elementos com altura definida.
 
 **Valores possíveis:**
 * `visible` - Padrão, o conteúdo transborda para fora da caixa do elemento.
-* `hidden` - O conteúdo excedente e omitido.
-* `scroll` - O conteúdo excedente e omitido, mas é adicionado um barra de rolagem para que haja acesso ao conteúdo.
+* `hidden` - O conteúdo excedente é omitido.
+* `scroll` - O conteúdo excedente é omitido, mas é adicionado um barra de rolagem para que haja acesso ao conteúdo.
 * `auto` - Similar ao **scroll**, mas a barra só é adicionada se necessária.
 
 `overflow-x` e `overflow-y` determinam como o conteúdo irá transbordar.

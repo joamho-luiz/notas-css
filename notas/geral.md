@@ -35,7 +35,7 @@ Confira mais [aqui](https://www.w3schools.com/css/css_pseudo_classes.asp "W3C").
             content: url(smiley.gif);
         }
     ```
-* `h1::after` - inserir conteúdo antes de um elemento. 
+* `h1::after` - inserir conteúdo depois de um elemento. 
 * `::marker` - selecionar o marcadores de listas (ordenadas ou não).
     ```css
         ::marker {
@@ -55,8 +55,8 @@ Confira mais [aqui](https://www.w3schools.com/css/css_pseudo_classes.asp "W3C").
 ## Atributo - atributo ou valor
 * `a[target]` - Atributo
 * `a[target = "_blank"]` - Valor  
-* `[class~="flower"]` -  `class` que tenham `flower`, precisa está isolado.
-* `[class|="top"]` - `class` que comecem com `top` ou `top-`, precisa está isolado.
+* `[class~="flower"]` -  `class` que tenham `flower`, precisa estar isolado.
+* `[class|="top"]` - `class` que comecem com `top` ou `top-`, precisa estar isolado.
 * `[class^="top"]` - `class` que comecem com `top`, não precisa estar isolado. 
 * `[class$="test"]` - `class` que terminam com `test`, não precisa estar isolado.
 * `[class*="te"]` - `class` que possuam `te` em seu valor, não precisa estar isolado.
@@ -85,7 +85,7 @@ Determina qual declaração tem mais prioridade. Se tiverem mesma prioridade o �
 
 # UNIDADES DE MEDIDAS
 
-* O '0' não precisa de unidade de medida
+* O '0' não precisa de unidade de medida.
 * Algumas propriedades aceitam valores negativo.
 
 ## Unidades Absolutas
@@ -132,7 +132,7 @@ Vale para: _padding_, _border_, _margin_.
   Valor | Aplicação
   -|-
   Um | (⮃⮂)
-  Dois | ⮃ ⮃
+  Dois | ⮃ ⮂
   Três | 🡡 ⮂ 🡣
   Quatro | 🡡 🡢 🡣 🡠
 

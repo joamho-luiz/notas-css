@@ -58,7 +58,7 @@ Determinar a posição (por top, bottom, left, right), só funciona depois que d
         top: 0; /*quando elemento aparecer na posição top 0 permanecerá fixo */
     ```
 
-Alguns posicionamento podem implicar em sobreposição, então pe possível ordenar a posição no eixo Oz através da propriedade `z-index: -1;` atributo a cada elemento valores positivos ou negativos. Sem determinar a posição em z a ordem de sobreposição é dado pelo elemento último elemento no html.
+Alguns posicionamento podem implicar em sobreposição, então é possível ordenar a posição no eixo Oz através da propriedade `z-index: -1;` atributo a cada elemento valores positivos ou negativos. Sem determinar a posição em z a ordem de sobreposição é dado pelo elemento último elemento no html.
 
 # float (TRANSCENDER)
 
