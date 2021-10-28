@@ -114,6 +114,39 @@ vmax | Relativo a 1% da maior dimensão da janela
 _ex_ | _Relative to the x-height of the current font (rarely used)_
 _ch_ | _Relative to width of the "0" (zero)_	
 
+## Minhas Experiências
+
+* Unidades ideais  
+    * rem - Geral.  
+    * em - Filhos que dependem do tamanho do pai.  
+    * % - Proporções bem definidas.  
+    * ex - Dimensionar texto  
+    * ch - Dimensionar texto  
+<br>
+
+Unidade | Elemento | Pai | Avô | Sobrecarga | Raiz
+-- | -- | -- | -- | -- | --
+`rem` |~|~|~|~|s
+`em` |s|s|s|s|s
+`%` |~|s d|s|s|s
+`ex` |s f|s f|s f|s|s
+`ch` |s f|s f|s f|s|s
+
+s - alteração `font-size` implica em alteração de tamanho para unidade  
+f - alteração `font-family` implica em alteração de tamanho para unidade  
+d - alteração `height` ou `width` implica em alteração de tamanho para unidade  
+~ - nada
+
+---
+
+
+* Unidades só para estilização
+    * px - Tamanhos fixo  
+    * vw - proporção de tala visível.  
+    * vh - proporção de tala visível.   
+    * vmax - proporção de tala visível.   
+    * vim - proporção de tala visível.  
+
 <br><br><br>
 
 # Cores
