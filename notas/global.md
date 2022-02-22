@@ -83,3 +83,93 @@ Determinar se pode haver elementos flutuantes ao seu lado.
 * `right`- não pode a direita.
 * `both` - não pode em nenhum dos lados.
 * `inherit` - herdar valor do elemento superior.
+
+# GRID LAYOUT
+
+<img src="../imagens/grid.gif" width="400px"/>  
+
+**Para definir um elemento e seu filhos com layout grid basta definir o display como `grid` ou `inline-grid`.**  
+É de bom tom definir grid-template-column, quantas colunas vai possuir a grade.
+
+## Espaçamentos
+
+### >> Gap
+```css
+.entre-linhas {
+    grid-row-gap: 50px;
+}.entre-celulas {
+    grid-gap: 50px 50px;    /* poderia colocar uma só vez. */
+}/* 'grid-' pode ser omitido*/
+```
+
+### >> Column e Rows
+```css
+.itens-a {
+    grid-auto-rows: 50px; /* largura das linhas. */
+    grid-template-columns: 80px 200px auto 40px; /* quantas colunas e de que tamanhos. */
+}
+.itens-b { 
+    grid-template: 150px / auto auto auto; /* Linha / colunas / areas(nomeadas) */
+}
+```
+
+## Posições  
+
+### >> Elemento da grade
+```css
+/* DEFINIR LARGURA DA COLUNA */
+.item1 {
+    grid-column: 1 / span 3; /* A partir da um expanda-se por 3 linhas. */
+}
+
+/* DEFINIR DIMENSÕES DA CÉLULA */
+.item2{
+    grid-area: 2 / 1 / 2 / 3; /* li ci lf cf */
+}
+```
+
+### >> Alinhamento
+```css
+.container {
+    justify-content: center; /* Como as celulas vão se posicionar horizontalmente. */
+    align-content: center; /* Como as celulas vão se posicionar verticalmente. */
+}
+```
+
+### >> Área nomeada
+```css
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer'
+    'header . . . . .'; 
+    /* A ultima linha possui uma celula header na primeira coluna. */
+}
+```
+
+# FLEXBOX LAYOUT
+
+`display: flex;` - para definir o layout do container.
+
+## Container
+* `flex-direction` - como os itens serão empilhados.
+* `flex-wrap` - se os intens pode quebrar para próxima linha.
+* `flex-flow` - combo [-direction + -wrap].
+* `justify-content` - alinhamento horizontal.
+* `align-items` - alinhamento do conteúdo na vertical.
+* `align-content` - alinhamento do item na vertical.
+
+## Itens
+* `order` - ordem de cada elemento, padrão é '0'.
+* `flex-grow` - proporção de cada item, padrão é '0'.
+* `flex-shrink` - como o item vai encolher, padrão é '1', se '0' não encolhe.
+* `flex-basis` - comprimento inicial.
+* `flex` - combo [-grow -shrink -basis]
+* `align-self` - alinhamento do item, sobrepõem o alinhamento definido pelo container.
